@@ -6,39 +6,11 @@
     android:background="#B3D0E6">
 
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/appbar_history"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-    <android.support.design.widget.CollapsingToolbarLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        app:layout_scrollFlags="scroll">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
-            <ImageView
-                android:id="@+id/iv_back_showHistoryActivity"
-                android:layout_width="37dp"
-                android:layout_height="24dp"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="8dp"
-                android:layout_alignParentStart="true"
-                android:foreground="?selectableItemBackgroundBorderless"
-                re
-                app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
-        </RelativeLayout>
-
-    </android.support.design.widget.CollapsingToolbarLayout>
-    </android.support.design.widget.AppBarLayout>
     <RelativeLayout
         android:id="@+id/toolbar_customerLogin"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_below="@id/appbar_history"
         android:background="#98C7EB"
         >
        <!-- <TextView
