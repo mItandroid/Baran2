@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_inp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txt_inp_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="name"
+            android:imeOptions="actionNext|flagNoFullscreen"
+            android:isScrollContainer="true"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_inp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:textColorHint="#ff0000">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txt_inp_et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebEmailAddress"
+            android:hint="email"
+            android:imeOptions="actionNext|flagNoFullscreen"
+            android:isScrollContainer="true"
+            android:singleLine="true"
+            android:textColor="#00ff00"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>

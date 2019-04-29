@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BaranProgram2</string>
+    <string name="icon_size">10dp</string>
+    <string name="icon_user">&#xe818;</string>
+    <string name="icon_menu">&#xf0c9;</string>
+    <string name="icon_power">&#xe821;</string>
+    <string name="icon_home">&#xe822;</string>
+    <string name="icon_edit">&#xe822;</string>
+    <string name="icon_doc_new">&#xe808;</string>
+    <string name="icon_address_card_o">&#xf2bc;</string>
+    <string name="icon_mail">&#xe802;</string>
+    <string name="icon_comment">&#xe801;</string>
+    <string name="icon_bell_3">&#xe81d;</string>
+    <string name="icon_cog">&#xe80d;</string>
+    <string name="icon_off">&#xe812;</string>
+    <string name="icon_shop">&#xe80f;</string>
+    <string name="icon_sitemap">&#xf0e8;</string>
+    <string name="icon_map_signs">&#xf277;</string>
+    <string name="icon_phone_squared">&#xf098;</string>
+    <string name="icon_basket">&#xe826;</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

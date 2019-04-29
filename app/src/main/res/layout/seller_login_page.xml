@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="#f5f5f5">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="فرم ورود فروشندگان"
+            android:fontFamily="@font/iransans_regular"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#009900"
+            android:layout_marginBottom="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#111111" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/login_STitle_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="عنوان فروشگاه"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" عنوان فروشگاه خود را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="textPersonName"
+                android:background="@drawable/rounded_edittext"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SName_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="نام فروشنده"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" نام خود را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+            <TextView
+                android:id="@+id/login_SUsername_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="نام کاربری"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" نام کاربری خود را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SPass_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="کلمه عبور"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint="رمز عبور خود را وارد کنید"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SRePass_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="تکرار کلمه عبور"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" رمز عبور خود را مجدداً وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SEmail_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="ایمیل"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" ایمیل خود را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SAddress_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="آدرس فروشگاه"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" آدرس فروشگاه خود را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SSenf_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="صنف مربوطه"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" صنف خود را انتخاب کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/login_SPhone_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe808;"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="تلفن فروشگاه"
+                android:fontFamily="@font/iransans_light"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:hint=" شماره تلفن فروشگاه را وارد کنید "
+                android:fontFamily="@font/iransans_light"
+                android:textSize="12sp"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="متن اخطار داده ورودی اینجا قرار بگیرد"
+            android:fontFamily="@font/iransans_light"
+            android:gravity="center_horizontal"
+            android:textColor="#e30425"
+            android:textSize="14sp"
+            android:layout_margin="16dp"/>
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ثبت مشخصات"
+            android:fontFamily="@font/iransans_light"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    </LinearLayout>

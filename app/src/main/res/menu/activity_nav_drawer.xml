@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pishkhan"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="پیشخوان"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_newkala"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="ثبت کالای جدید"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_editkala"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="ویرایش کالا"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="هشدارهای سیستم"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_msg"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="پیام های دریافتی"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_usercomment"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="دیدگاه کاربران"
+            android:fontFamily="@font/iransans_light"/>
+        <item
+            android:id="@+id/nav_editprofile"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="ویرایش مشخصات"
+            android:fontFamily="@font/iransans_light"/>
+
+    </group>
+
+
+
+</menu>
